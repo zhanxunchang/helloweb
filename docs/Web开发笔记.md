@@ -1,6 +1,38 @@
-# Web技术
-
 [TOC]
+
+# 学习 Web 开发
+
+以下是 MDN 学习区涵盖的所有主题列表：
+
+- [Web入门](https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web)
+
+  为初学者提供一个实用的 Web 开发入门。
+
+- [HTML — 构建网站](https://developer.mozilla.org/zh-CN/docs/Learn/HTML)
+
+  HTML 是我们用来构造网站内容的不同部分并定义它们的意义或目的的语言。本主题详细讲授 HTML。
+
+- [CSS — 美化网站](https://developer.mozilla.org/zh-CN/docs/Learn/CSS)
+
+  我们可以使用 CSS 这个语言来设计和布局我们的 Web 内容，以及添加像动画一类的行为。这个主题提供了详细的 CSS 指导。
+
+- [JavaScript — 动态客户端脚本语言](https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript)
+
+  JavaScript 是用于向 Web 页面添加动态功能的脚本语言。本主题讲授了编写和理解JavaScript 所需的所有基本要点。
+
+- [可访问性 — 让网站能被所有人使用](https://developer.mozilla.org/zh-CN/docs/Learn/Accessibility)
+
+  可访问性是将 Web 内容尽可能地提供给尽可能多的人的实践，而不管残疾、设备、地区或其他不同的因素。这个主题给了您所有您需要了解的内容。
+
+- [工具集与测试](https://developer.mozilla.org/zh-CN/docs/Learn/Tools_and_testing)
+
+  本主题介绍了开发人员用来促进其工作的工具，如跨浏览器测试工具。
+
+- [服务端网站编程](https://developer.mozilla.org/zh-CN/docs/Learn/Server-side)
+
+  即使您专注于客户端 Web 开发，了解服务器和服务端代码功能如何工作仍然是有用的。本主题提供服务器以及服务端代码特性如何工作的概述，并详细介绍了如何使用最流行的两个框架—— Django（Python）以及 Express（node.js）建立一个服务端的应用程序。
+
+# Web入门
 
 ## 1.运行一个本地 HTTP 服务器
 
@@ -159,3 +191,8 @@ document.querySelector('html').onclick = function() {
 
 ```
 
+## 5.发布网站
+
+参考[发布网站](https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web/Publishing_your_website)
+
+推荐通过GitHub发布，想要了解更多，请看 [GitHub Pages Help](https://help.github.com/categories/github-pages-basics/).
