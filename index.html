@@ -1,1 +1,72 @@
-<h1>Hello!</h1>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+    <link href="styles/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <p id="first-line">学Web开发上MDN</p>
+    <p>传送门:<a href="https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web">Web入门</a></p>
+    <img src="images/web-front.jpg" alt="Web前端">
+
+    <p class="p-title">标题</p>
+    <h1>主标题-h1</h1>
+    <h2>顶层标题h2</h2>
+    <h3>子标题h3</h3>
+    <h4>子标题h4</h4>
+    <h5>标题h5</h5>
+    <h6>标题h6</h6>
+
+    <p class="p-title">段落</p>
+    <!-- p: paragraph -->
+    <p>这是一个段落。</p>
+    <p>这是又一个段落。</p>
+
+    <p class="p-title">无序列表</p>
+    <!-- ul: Unordered List -->
+    <!-- li: List Item -->
+    <ul>
+        <li>技术人员</li>
+        <li>思考者</li>
+        <li>建造者</li>
+    </ul>
+
+    <p class="p-title">有序列表</p>
+    <!-- ol: Ordered List -->
+    <ol>
+        <li>技术人员</li>
+        <li>思考者</li>
+        <li>建造者</li>
+    </ol>
+
+    <p class="p-title">链接</p>
+    <!-- href: hypertext reference -->
+    <p id="a-1">搜索用<a href="https://www.baidu.com">百度</a></p>
+
+    <p class="p-title">样式</p>
+    <p>用strong突出<strong>强调的内容</strong></p>
+    <p class="p-1">这是一个段落，通过类选择器设定为蓝色</p>
+    <p class="p-2">这是一个段落，通过类选择器设定更多样式</p>
+    <p pseudo-arrt="xx">伪（Pseudo）类选择器可以选择特定状态下的特定元素（比如鼠标指针悬停）</p>
+    <p pseudo-arrt="xx">伪（Pseudo）类选择器可以选择特定状态下的特定元素（比如鼠标指针悬停）</p>
+
+    <p class="p-title">JavaScript</p>
+    <p id="p-id-1">这是段落的原始内容，将被js动态替换掉！</p>
+    <p id="p-id-2">试试点击一下这段文字或下图</p>
+    <img id="img-id-1" src="images/1.jpg" alt="1.jpg">
+
+    <p id="p-id-username">欢迎您！</p>
+    <button id="btn-id-1">切换用户</button>
+
+    <!-- 
+        defer 属性规定是否对脚本执行进行延迟，直到页面加载为止。如果您的脚本不会改变文档的内容，
+        可将 defer 属性加入到 <script> 标签中，以便加快处理文档的速度。因为浏览器知道它将能够安全
+        地读取文档的剩余部分而不用执行脚本，它将推迟对脚本的解释，直到文档已经显示给用户为止。 
+    -->
+    <script src="scripts/main.js" defer></script>
+</body>
+
+</html>
